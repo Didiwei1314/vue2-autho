@@ -1,0 +1,95 @@
+
+.login_bg{
+	width: 100%;
+	 height: 100%;
+	 background: url(../../assets/login_bg.png) no-repeat center;
+	 position: relative;
+    &::after{
+		content:'';
+		display: block;
+		position: absolute;
+		top: 0;
+		width:100%;
+		height:100%;
+		background:#32adff;
+		z-index: -1;
+	}
+	.login_box{
+		 width: 860px;
+		 margin: auto;
+		 padding-top: 140px;
+		 position: relative;
+
+		 .login_por{
+			 width: 495px;
+			 font-size: 14px;
+			 margin: 0 0 20px;
+			 float: right;
+
+			 .login_top{
+				 height: 200px;
+				 background: url(../../assets/login_top1.png)
+			 }
+			 .login_center{
+				 background: url(../../assets/login_center.png) center repeat-y;
+				 padding-bottom: 30px;
+				 ul{
+					 width: 372px;
+					 margin: auto;
+
+					 li{
+						line-height: 20px;
+						position: relative;
+
+						span{
+							display: block;
+							width: 30px;
+							height: 30px;
+							position: absolute;
+							right: 10px;
+							top: 6px;
+						}
+
+						input{
+							border: 1px solid #aaaaaa;
+							width: 304px;
+							height: 61px;
+							padding-left: 66px;
+							font-size: 14px;
+							color: #000;
+						}
+						&:nth-child(1)>span{
+							background-image:url(../../assets/icons.png);
+							background-size:30px;  
+						}
+						&:nth-child(2){
+							margin-top: 10px;
+						}
+						&:nth-child(2)>span{
+							background-image:url(../../assets/icons.png);
+							background-size:30px; 
+							background-position:0 -47px;
+						}
+					 }
+				 }
+			 }
+			 .login_btn{
+				 width: 372px;
+				 height: 46px;
+				 padding: 0;
+				 border: none;
+				 margin: 20px 0;
+				 text-align: center;
+
+					button{
+						 width:100%;
+						 height:46px;
+					 }
+			 }
+			 .login_bot{
+				 height: 31px;
+				 background: url(../../assets/login_bot.png) bottom center no-repeat;
+			 }
+		 }
+	}
+}
