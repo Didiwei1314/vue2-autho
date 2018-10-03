@@ -1,8 +1,5 @@
-const baseHost = 'http://10.2.17.103:8080/' // 刘达本机测试
-    // const baseHost = 'http://121.69.16.242:8080/' //沈超本机测试
-    // const baseHost = 'http://dgdev.aihsh.cn/' // 开发测试
-    // const baseHost = 'http://dgtest.aihsh.cn:88/' // 测试环境
-    // const baseHost = 'http://dg.aihsh.cn:9090/' // 正式环境
+const baseHost = 'http://10.2.17.103:8080/' // 
+    // const baseHost = 'http://121.69.16.242:8080/' 
 const api = {
     login: baseHost + 'admin/interface/login/login', // 登录
     loginInfo: baseHost + 'admin/interface/login/info', // 登录信息
